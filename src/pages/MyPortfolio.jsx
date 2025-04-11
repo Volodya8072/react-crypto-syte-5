@@ -7,8 +7,9 @@ import Footer from '../components/Footer'
 const MyPortfolio = () => {
   return (
     <div className='w-full min-h-screen relative'>
-      <div className='absolute inset-0 bg-cover bg-center'
-      style={{ backgroundImage: 'url(/head3.png)' }}>
+      <div 
+        className='absolute inset-0 bg-cover bg-center'
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}head3.png)` }}>
       </div>
       <div className='absolute inset-0 bg-[#05010f] opacity-80'></div>
         <div className='relative z-10'>

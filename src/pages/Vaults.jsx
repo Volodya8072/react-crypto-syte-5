@@ -9,8 +9,9 @@ import Footer from '../components/Footer'
 const Vaults = () => {
   return (
     <div className='bg-black'>
-        <div  className="h-[633px] bg-cover bg-center"
-          style={{ backgroundImage: 'url(/head.png)' }}>
+        <div 
+          className="h-[633px] bg-cover bg-center"
+          style={{ backgroundImage: `url(${import.meta.env.BASE_URL}head.png)` }}>
             <Navbar/>
             <div className='flex justify-evenly gap-52 mr-24 '>
                 <img src={assets.btc} alt="" className='transform translate-y-12 h-20'/>

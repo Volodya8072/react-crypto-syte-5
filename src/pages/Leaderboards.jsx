@@ -9,7 +9,7 @@ const Leaderboards = () => {
     <div className='w-full min-h-screen relative'>
       <div 
         className='absolute inset-0 bg-cover bg-center'
-        style={{ backgroundImage: 'url(/head2.png)' }}>
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}head2.png)` }}>
       </div>
       <div className='absolute inset-0 bg-black opacity-90'></div>
       <div className='relative z-10'>
