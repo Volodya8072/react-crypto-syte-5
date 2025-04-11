@@ -32,6 +32,9 @@ import cross from './cross.png'
 import strategyIm from './strategyIm.png'
 import specificationIm from './specificationIm.png'
 import conditionIm from './conditionIm.png'
+import head from './head.png'
+import head2 from './head2.png'
+import head3 from './head3.png'
 import doll from './doll.png'
 
 
@@ -69,7 +72,10 @@ export const assets = {
     conditionIm,
     specificationIm,
     strategyIm,
-    doll
+    doll,
+    head,
+    head2,
+    head3
 
 }
 
